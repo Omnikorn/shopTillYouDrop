@@ -1,4 +1,4 @@
-import data from "./data"
+
 import {
 	BrowserRouter,
 	Link,
