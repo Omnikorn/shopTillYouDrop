@@ -8,7 +8,7 @@ app.use(express.json())
 app.use(cors())
 
 app.get('/api/products', (req,res)=>{
-    res.send(data)
+    res.send(data.products)
 })
 
 
