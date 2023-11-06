@@ -7,10 +7,20 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.site-container {
+  min-height: 100vh;
+}
+
 
 
 main {
-  padding: 1rem;
+  flex: 1;
+}
+
+.btn-primary{
+  background-color: darksalmon;
+  border: none;
+  color: rgb(46, 5, 5);
 }
 .products {
   display: flex;
@@ -34,4 +44,8 @@ main {
 
 .product-info {
   padding: 1rem;
+}
+
+.rating span {
+  color: rgb(212, 87, 191);
 }
