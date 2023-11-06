@@ -18,7 +18,7 @@ main {
 }
 
 .btn-primary{
-  background-color: darksalmon;
+  background-color: rgb(222, 113, 124);
   border: none;
   color: rgb(46, 5, 5);
 }
@@ -47,5 +47,10 @@ main {
 }
 
 .rating span {
-  color: rgb(212, 87, 191);
+  color: rgb(222, 113, 124);
+}
+
+
+.img-large {
+  max-width: 100%;
 }
