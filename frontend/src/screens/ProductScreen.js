@@ -9,7 +9,8 @@ import Card from "react-bootstrap/Card"
 import Badge from "react-bootstrap/Badge"
 import Button from "react-bootstrap/esm/Button"
 import { Helmet } from "react-helmet-async"
-
+import LoadingBox from "../components/LoadingBox"
+import MessageBox from "../components/MessageBox"
 
 const ProductScreen = () => {
 	const params = useParams()
@@ -66,9 +67,9 @@ const ProductScreen = () => {
 	}, [slug])
 
 	return loading ? (
-		<div>Loading ... </div>
-	) : error ? (
-		<div>{error}</div>
+		<LoadingBox />
+				) : error ? (
+					<MessageBox variant="danger">{error}</MessageBox>
 	) : (
 		<div>
 			<Row>
